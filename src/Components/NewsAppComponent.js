@@ -30,7 +30,7 @@ class NewsAppComponent extends React.Component {
     return (
       <Container>
         <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
-          Search for a topic
+          Search for a articles
         </Header>
         <SearchBar searchForTopic={this.searchForTopic} />
         <p style={{ textAlign: "center" }}>
